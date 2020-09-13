@@ -266,7 +266,7 @@ EOD;
      */
     protected function replaceModelNamespace(&$stub, $modelNamespace)
     {
-        $stub = str_replace('{{modelNamespace}}', 'Models\\'.$modelNamespace, $stub);
+        $stub = str_replace('{{modelNamespace}}', 'Models\\', $stub);
 
         return $this;
     }
