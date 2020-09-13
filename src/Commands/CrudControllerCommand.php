@@ -272,10 +272,10 @@ EOD;
     }
 
     /**
-     * Replace the modelNamespace segments for the given stub
+     *  Replace the modelNamespace segments for the given stub
      *
-     * @param $stub
-     * @param $modelNamespace
+     *  @param $stub
+     *  @param $modelNamespace
      *
      * @return $this
      */
