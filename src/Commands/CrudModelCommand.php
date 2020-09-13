@@ -53,7 +53,7 @@ class CrudModelCommand extends GeneratorCommand
      */
     protected function getDefaultNamespace($rootNamespace)
     {
-        return $rootNamespace;
+        return $rootNamespace . '\\Http\Models';
     }
 
     /**
