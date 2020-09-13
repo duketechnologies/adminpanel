@@ -1,25 +1,25 @@
 {
-    "name": "appzcoder/crud-generator",
+    "name": "duketechnologies/adminpanel",
     "license": "MIT",
-    "description": "Laravel CRUD Generator",
+    "description": "Laravel Admin Panel",
     "keywords": [
         "laravel",
-        "crud",
-        "crud generator",
+        "admin",
+        "panel",
         "laravel crud generator",
         "api generator"
     ],
     "authors": [
         {
-            "name": "Sohel Amin",
-            "email": "sohelamincse@gmail.com",
-            "homepage": "http://www.appzcoder.com"
+            "name": "Dulat Khojabergen",
+            "email": "khojabergen.d@duke.kz",
+            "homepage": "http://www.duke.kz"
         }
     ],
     "require": {
         "php": ">=5.6.4|>=7.0",
-        "illuminate/support": "^5.3|^6.0|^7.0",
-        "laravelcollective/html": "^5.3|^6.0|^7.0"
+        "illuminate/support": "^5.3|^6.0|^7.0|^8.0",
+        "laravelcollective/html": "^5.3|^6.0|^7.0|^8.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
