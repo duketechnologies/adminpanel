@@ -145,6 +145,7 @@ class CrudCommand extends Command
             $routeFile = base_path('routes/web.php');
         }
 
+
         if (file_exists($routeFile) && (strtolower($this->option('route')) === 'yes')) {
             $this->controller = ($controllerNamespace != '') ? $controllerNamespace . '\\' . $name . 'Controller' : $name . 'Controller';
 
@@ -165,7 +166,7 @@ class CrudCommand extends Command
      */
     protected function addRoutes()
     {
-        return ["Route::resource('" . $this->routeName . "', '" . $this->controller . "');"];
+        return ["Route::resource('" . $this->routeName . "', " . $this->controller . "::class);"];
     }
 
     /**
